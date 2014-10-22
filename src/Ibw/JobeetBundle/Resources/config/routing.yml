@@ -1,6 +1,6 @@
 ibw_jobeet_homepage:
-    path:     /hello/{name}
-    defaults: { _controller: IbwJobeetBundle:Default:index }
+    path:     /
+    defaults: { _controller: IbwJobeetBundle:Job:index }
 
 IbwJobeetBundle_job:
     resource: "@IbwJobeetBundle/Resources/config/routing/job.yml"
