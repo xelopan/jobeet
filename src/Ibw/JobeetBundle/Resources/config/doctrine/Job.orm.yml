@@ -21,6 +21,9 @@ Ibw\JobeetBundle\Entity\Job:
             type: string
             length: 255
             nullable: true
+        position:
+            type: string
+            length: 255
         location:
             type: string
             length: 255
